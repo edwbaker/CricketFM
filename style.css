@@ -1,12 +1,32 @@
 body {
-  background-image: url("po.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-h1 {
+#right, #left {
+  padding:20px;
+  background-color: rgba(120,120,120,0.8);
+  border-radius: 10px;
+  margin: 20px;
+}
 
+#right a, #left a {
+  color:white;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+#left {
+  position:absolute;
+  left: 0;
+  top: 50%;
+}
+
+#right {
+  position:absolute;
+  right: 0;
+  top: 50%;
 }
 
 .description, .description a {
