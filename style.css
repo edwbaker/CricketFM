@@ -78,7 +78,7 @@ audio {
   audio {
     bottom:unset;
     right:unset;
+    margin:unset;
     margin-top:100px;
-    position:unset;
   }
 }
