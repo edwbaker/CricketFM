@@ -30,10 +30,14 @@ body {
   top: 50%;
 }
 
-.description, .description a {
+.description {
   background-color: rgba(120,120,120,0.8);
   border-radius: 10px;
   padding: 5px;
+  color: white;
+}
+
+.description a {
   color:white;
 }
 
@@ -61,4 +65,19 @@ audio {
 
 #credit a {
   color:white;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #left {
+    top:unset;
+  }
+  #right {
+    top:unset;
+  }
+  audio {
+    bottom:unset;
+    right:unset;
+    margin-top:100px;
+  }
 }
