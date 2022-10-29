@@ -67,7 +67,7 @@ audio {
   color:white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   #left {
     top:unset;
@@ -80,5 +80,10 @@ audio {
     right:unset;
     margin:unset;
     margin-top:100px;
+    width:300px;
+  }
+  #credit{
+  bottom:unset;
+  left:unset;
   }
 }
