@@ -83,7 +83,6 @@ audio {
     width:300px;
   }
   #credit{
-  bottom:unset;
-  left:unset;
+    display:none;
   }
 }
