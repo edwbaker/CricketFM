@@ -5,6 +5,15 @@ body {
   background-position: center;
 }
 
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
 #right, #left {
   padding:20px;
   background-color: rgba(120,120,120,0.8);
@@ -35,6 +44,11 @@ body {
   border-radius: 10px;
   padding: 5px;
   color: white;
+}
+
+.description-bottom {
+  position:absolute;
+  bottom:40px;
 }
 
 .description a {
