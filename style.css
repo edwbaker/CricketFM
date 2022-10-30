@@ -68,6 +68,11 @@ audio {
   width:400px;
 }
 
+.audio-top {
+  bottom:unset;
+  top:0px;
+}
+
 #credit {
   position: absolute;
   bottom: 0;
