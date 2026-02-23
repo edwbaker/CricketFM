@@ -105,7 +105,8 @@ audio {
     width:300px;
   }
   #credit{
-    display:none;
+    font-size:x-small;
+    padding: 3px;
   }
   .description {
     margin-right:unset;
